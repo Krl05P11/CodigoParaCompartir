@@ -1,0 +1,5 @@
+output ["raid = {"]++[_toString_WARRIOR(set2array(raid)[i],false,false)++if i==u then "};" else ", " endif | i in 1..u, ];
+function string : _toString_WARRIOR(opt int: x,bool: b,bool: json) = if occurs(x) then if b then showDznId(_enum_to_string_0_WARRIOR[deopt(x)]) elseif json then ("{\"e\":\""++_enum_to_string_0_WARRIOR[deopt(x)])++"\"}" else _enum_to_string_0_WARRIOR[deopt(x)] endif else if json then "null" else "<>" endif endif;
+int: u = 6;
+set of int: raid = 8..9;
+array [1..11] of string: _enum_to_string_0_WARRIOR = ["D","W1","W2","W3","W4","W5","W6","W7","W8","W9","W10"];

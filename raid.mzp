@@ -1,16 +1,21 @@
 {
-	"projectFiles": [
-		"models/raid.mzn",
-		"data/raid_2.dzn",
-		"data/raid_1.dzn",
-		"data/raid_0.dzn",
-		"_mooc"
-	],
-	"openFiles": [
-		"models/raid.mzn"
-	],
-	"openTab": 0,
-	"version": 106,
-	"selectedBuiltinConfigId": "org.gecode.gecode",
-	"selectedBuiltinConfigVersion": "6.3.0"
+    "openFiles": [
+        "models/raid.mzn",
+        "raid.fzn",
+        "data/raid_0.dzn",
+        "data/raid_1.dzn",
+        "data/raid_2.dzn"
+    ],
+    "openTab": 0,
+    "projectFiles": [
+        "_mooc",
+        "data/raid_0.dzn",
+        "data/raid_1.dzn",
+        "data/raid_2.dzn",
+        "models/raid.mzn",
+        "raid.fzn"
+    ],
+    "selectedBuiltinConfigId": "org.gecode.gecode",
+    "selectedBuiltinConfigVersion": "6.3.0",
+    "version": 106
 }
